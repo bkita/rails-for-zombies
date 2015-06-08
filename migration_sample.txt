@@ -1,0 +1,1 @@
+rails g migration CreateDomainsTable name:string, unicode_name:string, registration_term_unit:string, registration_term_length:integer, auth_info:string, registered_date:datetime, expiry_date:datetime, deleted:boolean, deleted_date:datetime
